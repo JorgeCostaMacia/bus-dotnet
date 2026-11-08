@@ -1,0 +1,15 @@
+<Project>
+
+	<!-- Central Package Management: all third-party package versions live here, in one place.
+	     The contracts depend on nothing; what is listed is the build's and the tests'. -->
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="10.0.403" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="4.0.1" />
+		<PackageVersion Include="xunit.v3" Version="4.0.2" />
+	</ItemGroup>
+
+</Project>
