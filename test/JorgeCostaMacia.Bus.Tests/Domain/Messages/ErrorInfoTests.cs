@@ -6,7 +6,7 @@ namespace JorgeCostaMacia.Bus.Tests.Domain.Messages;
 public sealed class ErrorInfoTests
 {
     [Fact]
-    public void Create_MapsTypeMessageAndStackTrace()
+    public void Create_WithAThrownException_MapsTypeMessageAndStackTrace()
     {
         Exception thrown = Throw(new InvalidOperationException("boom"));
 
@@ -19,7 +19,7 @@ public sealed class ErrorInfoTests
     }
 
     [Fact]
-    public void Create_RecursesTheInnerExceptionChain()
+    public void Create_WithANestedInnerChain_RecursesThroughIt()
     {
         InvalidOperationException outer = new InvalidOperationException(
             "outer",
@@ -76,7 +76,7 @@ public sealed class ErrorInfoTests
     }
 
     [Fact]
-    public void Create_MapsSource()
+    public void Create_WithAThrownException_MapsItsSource()
     {
         Exception thrown = Throw(new InvalidOperationException("boom"));
 
@@ -87,7 +87,7 @@ public sealed class ErrorInfoTests
     }
 
     [Fact]
-    public void RoundTrip_PreservesTheParkedContract()
+    public void JsonRoundTrip_WithTheWebOptions_PreservesTheParkedContract()
     {
         // the parked failure travels serialized through both failure lanes and tooling reads it back
         // with the Web options — Type/Message/Source/StackTrace and the whole inner-cause chain survive.
