@@ -70,6 +70,7 @@ A skill listed here but missing on this machine is one command away: `claude plu
 - **`testing-dotnet`** (with **`testing`**) — xUnit v3 on Microsoft.Testing.Platform, the test project layout.
 - **`clean-architecture`** / **`solid`** — the bus as the messaging seam (consumers are driving adapters), and design review of the public surface.
 - **`gitflow`** — all branch/release work.
+- **`changelog`** — the `CHANGELOG.md` entry a release adds when it asks something of the packages' consumers (a major, a new requirement, a changed default), written with the version bump.
 - **`dotnet`** — C# language server + general .NET development.
 - **`dotnet-msbuild`** — `Directory.Build.props`, project-file quality, CPM.
 - **`dotnet-nuget`** — dependency management.
