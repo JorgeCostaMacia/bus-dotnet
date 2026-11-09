@@ -22,6 +22,10 @@ The **.NET 10** SDK.
 | --- | --- |
 | [JorgeCostaMacia.Bus](https://www.nuget.org/packages/JorgeCostaMacia.Bus/) | Core message, context and bus contracts — no transport, no request/response. |
 
+## Upgrading
+
+What each version asks of you, when it asks anything, is in [CHANGELOG.md](CHANGELOG.md).
+
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/jorge-costa-macia-842817164/)
