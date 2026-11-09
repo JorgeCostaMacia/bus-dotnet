@@ -1,6 +1,6 @@
 # bus-dotnet — working in this repo
 
-Transport-agnostic messaging contracts for .NET — messages, read-only message contexts and send/publish buses — shipped on NuGet as `JorgeCostaMacia.Bus`, the root every `JorgeCostaMacia.Bus.*` transport implements. The transports live in their own repositories, [bus-kafka-dotnet](https://github.com/JorgeCostaMacia/bus-kafka-dotnet) and [bus-rabbitmq-dotnet](https://github.com/JorgeCostaMacia/bus-rabbitmq-dotnet), so a patch to one transport republishes neither the other nor these contracts. Moved out of **bus-net**, keeping the package id and the version line.
+Transport-agnostic messaging contracts for .NET — messages, read-only message contexts and send/publish buses — shipped on NuGet as `JorgeCostaMacia.Bus`, the root every `JorgeCostaMacia.Bus.*` transport implements. The transports live in their own repositories, [bus-kafka-dotnet](https://github.com/JorgeCostaMacia/bus-kafka-dotnet) and [bus-rabbitmq-dotnet](https://github.com/JorgeCostaMacia/bus-rabbitmq-dotnet), so a patch to one transport republishes neither the other nor these contracts.
 
 ## Layout
 
