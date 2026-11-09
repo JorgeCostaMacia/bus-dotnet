@@ -10,7 +10,7 @@
 [![Main](https://github.com/JorgeCostaMacia/bus-dotnet/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/JorgeCostaMacia/bus-dotnet/actions/workflows/main.yml)
 [![Develop](https://github.com/JorgeCostaMacia/bus-dotnet/actions/workflows/develop.yml/badge.svg?branch=develop)](https://github.com/JorgeCostaMacia/bus-dotnet/actions/workflows/develop.yml)
 
-The transports live in their own repositories and release on their own: [bus-kafka-dotnet](https://github.com/JorgeCostaMacia/bus-kafka-dotnet) (Confluent.Kafka) and [bus-rabbitmq-dotnet](https://github.com/JorgeCostaMacia/bus-rabbitmq-dotnet) (RabbitMQ.Client) — a MassTransit-free bus, one package per concern. Part of the `JorgeCostaMacia.*` family, alongside [ddd-dotnet](https://github.com/JorgeCostaMacia/ddd-dotnet), [quartz-dotnet](https://github.com/JorgeCostaMacia/quartz-dotnet), [serilog-dotnet](https://github.com/JorgeCostaMacia/serilog-dotnet) and [http-dotnet](https://github.com/JorgeCostaMacia/http-dotnet). Moved out of [bus-net](https://github.com/JorgeCostaMacia/bus-net), keeping the package id.
+The transports live in their own repositories and release on their own: [bus-kafka-dotnet](https://github.com/JorgeCostaMacia/bus-kafka-dotnet) (Confluent.Kafka) and [bus-rabbitmq-dotnet](https://github.com/JorgeCostaMacia/bus-rabbitmq-dotnet) (RabbitMQ.Client) — a MassTransit-free bus, one package per concern. Part of the `JorgeCostaMacia.*` family, alongside [ddd-dotnet](https://github.com/JorgeCostaMacia/ddd-dotnet), [quartz-dotnet](https://github.com/JorgeCostaMacia/quartz-dotnet), [serilog-dotnet](https://github.com/JorgeCostaMacia/serilog-dotnet) and [http-dotnet](https://github.com/JorgeCostaMacia/http-dotnet).
 
 ## Requirements
 
